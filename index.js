@@ -67,7 +67,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Alhamdulillah running todo server');
+    res.send('Running todo server');
 });
 
 app.listen(port, () => {
